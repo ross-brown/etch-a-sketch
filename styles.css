@@ -1,5 +1,25 @@
+* {
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
 header {
   text-align: center;
+}
+
+button {
+  font-size: 16px;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: lightcyan;
 }
 
 main {
@@ -15,7 +35,19 @@ main {
   grid-template-rows: repeat(16, 1fr);
   height: 500px;
   width: 500px;
-  border: 1px solid black;
+  border: 5px solid black;
   margin-bottom: 25px;
-  margin-top: 20px;
+}
+
+.grid-square {
+  background-color: whitesmoke;
+}
+
+#color {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: black;
+  margin: 10px;
+  border: 1px solid black
 }
