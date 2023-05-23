@@ -36,8 +36,8 @@ function clearGrid() {
 
 function changeSize() {
   const newSize = prompt("How many squares per side would you like?");
-  if (+newSize > 100) {
-    alert("Cannot exceed 100 x 100");
+  if (+newSize > 100 || +newSize < 4) {
+    alert("Cannot exceed 100 x 100 or be less than 4x4");
   } else {
     clearGrid();
     createGrid(+newSize);
